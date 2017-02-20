@@ -14,8 +14,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void roll(View view) {
+        int rolled_i = 1 + (int) (Math.random() * 6);
+
         TextView tv = (TextView) findViewById(R.id.textView);
-        tv.setText("7");
+        tv.setText(String.valueOf(rolled_i));
     }
 
 }
