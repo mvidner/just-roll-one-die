@@ -15,6 +15,19 @@ die. Six faces ought to be enough for anybody. No pictures, just digits.
 - <https://developer.android.com/>
 - <https://developer.android.com/training/basics/firstapp/index.html>
 
+### So many files! Where's the actual code?
+
+- the main class:
+  [MainActivity.java](app/src/main/java/net/vidner/justrollonedie/MainActivity.java)
+- the screen layout:
+  [activity\_main.xml](app/src/main/res/layout/activity_main.xml)
+- English strings:
+  [values/strings.xml](app/src/main/res/values/strings.xml)
+- Czech strings:
+  [values-cs/strings.xml](app/src/main/res/values-cs/strings.xml)
+- Launcher icon:
+  [ic_launcher.png](app/src/main/res/mipmap-mdpi/ic_launcher.png )
+
 ### License
 
 MIT
